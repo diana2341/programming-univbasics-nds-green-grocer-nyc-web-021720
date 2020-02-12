@@ -102,7 +102,7 @@ def checkout(cart, coupons)
   i += 1
   end
 if total > 100 
-  total += final[i][:count] * 0.10
+  total += final[i][:price] * 0.10
 end
 total
 end
